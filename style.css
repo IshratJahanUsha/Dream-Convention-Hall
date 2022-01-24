@@ -9,7 +9,7 @@
     width: 1440px;
 }
 
-.slide .but{
+.but{
     background-color: #ffffff;
     color:#3f87f5;
     padding: .25rem 1.25rem;
@@ -17,6 +17,14 @@
     border-radius: 5px;
 }
 
+.ton{
+    background-color: #e5e5e5;
+    border-radius: 15px;
+}
+
+.dif{
+    background-color: #ffffff;
+}
 .precious img{
     position: 737px 863px;
     height:300px ;
