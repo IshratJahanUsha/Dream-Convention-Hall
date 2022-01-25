@@ -26,30 +26,14 @@
 .dif{
     background-color: #ffffff;
 }
-.precious img{
-    position: 737px 863px;
-    height:300px ;
-    width: 403px;
-}
-
-.precious h1{
-    color: black;
-}
-
-.precious p{
-    color: #6c6c6c;
-}
-
-.precious .butt{
-    color: #ffffff;
-    background-color: #0c19cc;
-    border: none;
-    border-radius: 5px;
-}
 
 .pack{
     margin: 2px;
     margin-left: 10px;    
+}
+
+.bor-rad{
+    border-radius: 2rem;
 }
 
 .pack3{
@@ -69,24 +53,13 @@ li{
  }
 
 
+
+
 /* responsive */
-
- /* @include media-breakpoint-up(sm) { 
-    html{
-        font-size:20%;
-    } 
-}
-
- 
-
- .custom-class {
-   display: none;
- }
-
- @include media-breakpoint-up(sm) {
-   .custom-class {
-     display: block;
-   }
- } */
+@media (max-width:767px){
+    .carousel-caption h5{
+        font-size: .5rem;
+    }
+} 
 
 
